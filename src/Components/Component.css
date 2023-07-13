@@ -1,0 +1,113 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   scroll-behavior: smooth;
+   scroll-snap-type: mandatory;
+   list-style: none;
+   text-decoration: none;
+}
+
+body{
+   background: #fff;
+}
+
+.MainGet {
+   padding: 0 10%;
+   background-color: #9e808069;
+}
+
+.SectionDataSet{
+   padding: 0 10%;
+}
+
+.navLinks{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+
+nav ul{ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   list-style: none;
+   margin-top: 10px;
+
+}
+
+nav ul li a{
+   color: black;
+   font-size: 13px;
+   text-align: center;
+   transition: all 0.3 ease;
+}
+
+nav ul li a:hover{
+   color: #9e8080;
+   transition: all 0.3 ease;
+}
+
+.ChangingColor{
+   margin-top: 20px;
+}
+
+input{
+   width: 100%;
+   padding: 10px;
+   border: none;
+   outline: none;
+   border-bottom: 2px rgba(51, 44, 44, 0.808) solid;
+}
+
+input:focus{
+   border-bottom: 2px #9e8080 solid;
+}
+
+input::placeholder{
+   color: #998181;
+}
+
+button{
+   width: 50%;
+   padding: 10px;
+   border: none;
+   outline: none;
+   background: #9e8080;
+   color: white;
+   border-radius: 5px 0px 20px ;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+button:hover{
+   background: #a74a32c5;
+   transition: all 0.3 ease;
+}
+
+.TodoName{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 20px;
+   color: #000000;
+   font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+   text-transform: lowercase;   
+}
+
+.TodoName::first-letter{
+   text-transform: uppercase;
+}
+
+.deleteBtn{
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.3 ease;
+   color: #ffffff;
+   background: #ff4e4e;
+}
+
+
